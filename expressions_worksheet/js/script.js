@@ -1,34 +1,9 @@
-// Dog Years
+// Average shopping bill
 
-var humanYears = 3; //declaring and defining sparky's age in human years
+var groceries = [375, 250, 350, 274, 150]; //array of grocery bills for 5 weeks
 
-var dogYears = 7; //declaring and defining 1 human year to dog years
+total = groceries[0] + groceries[1] + groceries[2] + groceries[3] + groceries[4] //total spent on groceries in 5 weeks
 
-dogAge = humanYears * dogYears; // calculating sparky's dog year age (result)
+average = total / 5; 
 
-console.log("Sparky is " +humanYears+ " years old in human years which is " +dogAge+ " years old in dog years.") // printing the calculation
-
-
-//Slice of pie part1
-
-var slices = 10; //number of slices per pizza
-
-var people = 27; //number of people at the party
-
-var pizzas = 12; //number of pizzas ordered
-
-shares = pizzas * slices / people; 
-
-console.log("Each person ate " +shares+ " slices of pizza at the party.");
-
-//Slice of pie part2
-
-var slices = 10; //number of slices of pizza
-
-var people = 27; //number of people at the party
-
-var pizzas = 12; //number of pizzas ordered
-
-shares = pizzas * slices % people; //calculating sparky's share of pizza
-
-console.log("Sparky got " +shares+ " slices of pizza."); //printing the calculation
+console.log("You have spent a total of $"+total+" on groceries over five weeks. That is an average of $"+average+" per week.") //printing the result.
