@@ -1,13 +1,15 @@
-// Personal
+//Industry_Specific
 
-var gallons = prompt("How many gallons of gas does your tank hold"); //how many gallons your tank holds.
+var work = prompt("How many hours does it take on average to build a 10 page website?");
 
-var price = 3.20; //on average the price of gas in Ohio.
+var clients = prompt("About how many clients do you take on in a year?");
 
-var spent = prompt("How much do you usually spend at the pump?"); //self explanitory
+var pay = prompt("How much do you charge per hour?");
 
-var gas = spent/price; //calculating how much gas you would usually get in Ohio
+var job = pay*work;
 
-alert("In Ohio you are usually getting about "+gas+" gallons of gas.") //informing the user how much gas they would get in Ohio
+var income = job*clients
 
-alert("ProTip: If you hold the pump as loosely as possible you will get more gas for your buck!") //ProTip of the day!
+alert("You generally get around $"+job+" for every client you work for. If you get "+clients+" a year that makes your annual income around $"+income+" a year.");
+
+alert("Good for you!");
