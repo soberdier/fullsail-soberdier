@@ -13,10 +13,22 @@ console.log("Sparky is " +humanYears+ " years old in human years which is " +dog
 
 var slices = 10; //number of slices per pizza
 
-var people = 24; //number of people at the party
+var people = 27; //number of people at the party
 
 var pizzas = 12; //number of pizzas ordered
 
 shares = pizzas * slices / people; 
 
 console.log("Each person ate " +shares+ " slices of pizza at the party.");
+
+//Slice of pie part2
+
+var slices = 10; //number of slices of pizza
+
+var people = 27; //number of people at the party
+
+var pizzas = 12; //number of pizzas ordered
+
+shares = pizzas * slices % people; //calculating sparky's share of pizza
+
+console.log("Sparky got " +shares+ " slices of pizza."); //printing the calculation
