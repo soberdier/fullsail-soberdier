@@ -1,15 +1,36 @@
-//Industry_Specific
+//Wacky
 
-var work = prompt("How many hours does it take on average to build a 10 page website?"); //asking how long it takes in general to do a website.
+//You should not give a nerd this much freedom ever!
 
-var clients = prompt("About how many clients do you take on in a year?"); //asking about how many clients you get a year.
+var intel = prompt("On a scale from 3-18 how intelligent are you?");
 
-var pay = prompt("How much do you charge per hour?"); //How much you get per hour.
+var wis = prompt("on a scale from 3-18 how wise are you?");
 
-var job = pay*work; //calculating how much you get per client on average
+var comb = intel + wis;
+var perception = comb / 2; 
 
-var income = job*clients //calculating your annual income from web design/development
+alert("Your perception score is "+ perception); //this is supposed to be intel+wis/2 but it doesn't work for some reason.
 
-alert("You generally get around $"+job+" for every client you work for. If you get "+clients+" a year that makes your annual income around $"+income+" a year."); //telling you how much money you make.
+alert("Wow, you are so smart you broke the code!!!")
 
-alert("Good for you!"); //Congradulating you for a job well done.
+var age = prompt("Fine let's try something else. How old are you?")
+
+alert("Seriously why did my code fail? I tried everything with it.")
+
+alert("Oh well let's just do a rectangle.")
+
+
+
+var width = prompt("We are calculating the area of a rectangle. Please enter the width")
+var height = prompt("Please enter the height.")
+var area = width * height;
+//console.log(area);
+alert("The area of your rectangle is "+ area);
+
+
+var crazyMath = width*intel-wis/height+area; 
+//this is what happens when code doesn't work after too much caffein, no sleep and 9 straight hours of coding.
+alert("Did you know that if you take that width, multiply it by your intelligence subtracting your wisdom dividing by the height you gave and then add the area we got it equals "+crazyMath);
+console.log("Move along folks, nothing to see here.");
+
+
