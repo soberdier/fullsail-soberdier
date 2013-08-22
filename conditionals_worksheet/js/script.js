@@ -25,4 +25,19 @@ else if(passGiven != correctPass) //incorrect password
 		}
 		
 
-//
+//Movie ticket price
+
+var movieTime = prompt("What time would you like to see this movie?"); //asking what time you want to see the movie
+
+var age = prompt("How old are you?"); //asking your age
+
+if(movieTime > 3 && movieTime <5) //determining price based on time viewing
+	{alert ("Your ticket price is $7.00")
+}
+
+else if (age >= 55 || age <= 10) //determining price based on age
+	{alert("Your ticket price is $7.00")
+		}
+else{alert("Your ticket price is $12.00") //ticket price if you are outside age range and time frame
+}
+
