@@ -7,7 +7,7 @@ var wis = prompt("On a scale from 3 to 18, how wise are you?"); //determining wi
 var perception = (parseInt(intel, 10) + parseInt(wis, 10))/2; 
 // determining perception score
 
-var check = prompt("Please choose a number from 1-20")
+var check = prompt("Please choose a number from 1-20") //make a perception check
 
 if(check < perception)
 {alert("You were perceptive enough to hear the dragon coming. You got the drop on him and cut his head off. You may now marry the prince/ess!") 
