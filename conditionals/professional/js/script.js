@@ -7,6 +7,6 @@ var companyResponse;
 
 // the company wants at least 5 years experience, let's see if you qualify
 
-companyResponse = (yearExp>5) ? "Congratulations you got the job!" : "I am sorry the position has been filled.";
+companyResponse = (yearExp>5) ? "Congratulations you got the job!" : "I am sorry the position has been filled."; //checking result
 
 console.log(companyResponse);
