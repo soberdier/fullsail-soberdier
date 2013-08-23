@@ -9,4 +9,4 @@ var companyResponse;
 
 companyResponse = (yearExp>5) ? "Congratulations you got the job!" : "I am sorry the position has been filled."; //checking result
 
-console.log(companyResponse);
+console.log(companyResponse); //printing the result
