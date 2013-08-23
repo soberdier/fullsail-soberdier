@@ -12,4 +12,4 @@ var check = prompt("Please choose a number from 1-20") //make a perception check
 if(check < perception)
 {alert("You were perceptive enough to hear the dragon coming. You got the drop on him and cut his head off. You may now marry the prince/ess!") //if you make the perception check, normally killing a dragon is not this easy.
 	}
-else{alert("You did not hear the dragon coming, He has you for lunch. Tough luck mate.")} 
+else{alert("You did not hear the dragon coming, He has you for lunch. Tough luck mate.")} //the likely outcome of a dragon encounter.
