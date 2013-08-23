@@ -11,7 +11,7 @@ var savings = payPerHour*hoursWorked/2;
 if(payPerHour * hoursWorked - bills - savings >= monster) //calculating if you can comfortably buy a case of monster
 	{alert("you can buy a case of monster without dipping into your savings.") //alert if you can
 		} 
-		else if(payPerHour*hoursWorked-bills >= monster)
+		else if(payPerHour*hoursWorked-bills >= monster)//calculating if you can uncomfortably afford a case of monster
 		{alert("You can buy a case of monster if you forgo your savings this week.")
 			}
 		else(	
