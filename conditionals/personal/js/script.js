@@ -8,6 +8,10 @@ var hoursWorked = prompt("How many hours did you work this week?"); //prompt ask
 var bills = prompt("How much are your expenses this week?"); //prompt asking how much your weekly expenses will cost you
 var savings = payPerHour*hoursWorked/2;
 //dividing pay in half for savings account
-if(payPerHour * hoursWorked - bills > monster)
-	{
+if(payPerHour * hoursWorked - bills - savings >= monster) //calculating if you can comfortably buy a case of monster
+	{alert("you can buy a case of monster without dipping into your savings.")
 		} 
+		else if(payPerHour*hoursWorked-bills >= monster)
+		{alert("You can buy a case of monster if you forgo your savings this week.")
+			}
+		else(	
