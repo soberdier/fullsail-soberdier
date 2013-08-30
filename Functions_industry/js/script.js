@@ -3,7 +3,7 @@
 var pages;
 var deadLine;
 var overTime; //defining variables
-function takeJob (pages,deadLine,overTime){
+function takeJob (pages,deadLine,overTime){  //setting up the function
 	var pages = prompt("How many pages would you like the website to be?")
 	var deadLine = prompt("In how many days do you want the site completed?")
 	var overTime = prompt("How many hours will you allow before paying overtime?")
