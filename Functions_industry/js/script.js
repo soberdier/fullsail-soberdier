@@ -11,5 +11,5 @@ function takeJob (pages,deadLine,overTime){  //setting up the function
 	else{alert("I'm sorry I can not take the job.")} //setting up else
 	
 	}
-	takeJob();
+	takeJob(); //printing to console
 	
